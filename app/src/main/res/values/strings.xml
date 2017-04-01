@@ -30,6 +30,8 @@
 	<string name="title_hosts_list">"Hosts"</string>
 	<!-- Window title for the Pubkeys List -->
 	<string name="title_pubkey_list">"Pubkeys"</string>
+	<!-- Window title for the Tickets List -->
+	<string name="title_ticket_list">"Tickets"</string>
 	<!-- Window title for the Port Forwards List -->
 	<string name="title_port_forwards_list">"Port forwards"</string>
 	<!-- Window title when editing host details -->
@@ -673,4 +675,6 @@
 	     Added to the end of a key description to indicate that the key is encrypted (i.e,
 	     password protected). -->
 	<string name="key_attribute_encrypted">(encrypted)</string>
+	<string name="list_menu_tickets">Manage Tickets</string>
+	<string name="ticket_add_new">Add Ticket</string>
 </resources>

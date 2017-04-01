@@ -86,6 +86,16 @@
 		</activity>
 
 		<activity
+			android:name=".TicketListActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:label="@string/title_ticket_list">
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="org.connectbot.HostListActivity"/>
+		</activity>
+
+		<activity
 			android:name=".GeneratePubkeyActivity"
 			android:configChanges="keyboardHidden|orientation"
 			android:label="@string/title_pubkey_generate">

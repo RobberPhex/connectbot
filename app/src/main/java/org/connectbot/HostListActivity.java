@@ -277,6 +277,10 @@ public class HostListActivity extends AppCompatListActivity implements OnHostSta
 		keys.setIcon(android.R.drawable.ic_lock_lock);
 		keys.setIntent(new Intent(HostListActivity.this, PubkeyListActivity.class));
 
+		MenuItem tickts = menu.add(R.string.list_menu_tickets);
+		tickts.setIcon(android.R.drawable.ic_lock_lock);
+		tickts.setIntent(new Intent(HostListActivity.this, TicketListActivity.class));
+
 		MenuItem colors = menu.add(R.string.title_colors);
 		colors.setIcon(android.R.drawable.ic_menu_slideshow);
 		colors.setIntent(new Intent(HostListActivity.this, ColorsActivity.class));
